@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>About Us</title>
+    <style>
+    /* Add some style to the page */
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(///C:/Users/anoua/OneDrive%20-%20OFPPT/Bureau/ca.jpg);
+}
+h1 {
+  color: #333;
+}
+.about-section {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+
+    </style>
+  </head>
+  <body>
+    <div class="about-section">
+      <h1>About Us</h1>
+      <p>
+        We are a team of dedicated professionals who are passionate about [our products/services]. Founded in 2022 by ...
+      </p>
+      <p>
+        Our mission is to help. We believe in  work hard every day to deliver the best possible experience to our customers.
+      </p>
+      <h2>Meet the Team:</h2>
+      <ul>
+        <li>Anouar Amim</li>
+      </ul>
+      </div>
+    </div>
+    <script>
+      // Add some interactive functionality with JavaScript
+      const achievements = document.querySelector('.achievements');
+      achievements.addEventListener('mouseover', (event) => {
+        if (event.target.className === 'achievement') {
+          event.target.style.backgroundColor = '#ccc';
+        }
+      });
+      achievements.addEventListener('mouseout', (event) => {
+        if (event.target.className === 'achievement') {
+          event.target.style.backgroundColor = '#eee';
+        }
+      });
+    </script>
+  </body>
+</html>

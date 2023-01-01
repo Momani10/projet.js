@@ -1,0 +1,70 @@
+
+/* Styles CSS */
+.banner-container {
+  background-image: url('banner-image.jpg');
+}
+.banner-content {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  text-align: center;
+}
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+}
+.button:hover {
+  background-color: #444;
+}
+.courses-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.course {
+  width: 33%;
+  text-align: center;
+}
+.course-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.course-title {
+  margin: 10px 0;
+}
+.course-price {
+  color: #333;
+}
+
+h1{
+    text-align: center;
+}
+
+.for{
+  text-align: center;
+}
+
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.swiper{
+   width: 50%;
+   height: fit-content;
+}
+.swiper-slide img{
+  align-items: center;
+  width: 100%;
+}
+.swiper-button-prev,
+.swiper-button-next
+{
+  color: #5b7f3c;
+}
+.swiper .swiper-pagination-bullet-active{
+  background: #5b7f3c;
+}
